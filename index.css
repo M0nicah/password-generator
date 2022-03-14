@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&display=swap");
+
+.font {
+  font-family: "Noto Serif Display", serif;
+}
+
+body {
+  background: #087711;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  place-content: center;
+  margin: auto;
+  background-color: #ffffff;
+  height: 10rem;
+  width: 20rem;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+input {
+  display: flex;
+  color: #2a2a2c;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 1.5rem;
+  margin-left: 10px;
+  width: 15rem;
+  vertical-align: middle;
+  margin: auto;
+}
+.text {
+  color: #23262b;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+.buttons {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-evenly;
+  border: none;
+}
+.buttons :hover {
+  background-color: #087711;
+  color: white;
+}
+.submit {
+  color: white;
+  padding: 1rem;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 99px;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.copy {
+  color: white;
+  border: none;
+  padding: 0.1rem 1rem 0.1rem 1rem;
+  border-radius: 99px;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.info{
+  margin-top: 40px;
+  text-align: center;
+  width: 200px;
+  background: #0ebd1d;
+  padding: 1rem;
+  animation: slideIn 1.5sec linear forwards;
+}
+#hide{
+  
+
+}
